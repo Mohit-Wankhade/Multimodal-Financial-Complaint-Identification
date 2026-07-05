@@ -1,0 +1,3 @@
+*.ipynb filter=strip-notebook-output
+*.png binary
+*.pdf binary

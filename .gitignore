@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+
+# Raw/private data - do not commit full datasets
+/data/raw/
+/data/private/
+/data/processed/
+*.xlsx
+*.xls
+*.pkl
+*.pickle
+*.jsonl
+
+# Keep public sample files
+!/data/sample/
+!/data/sample/sample_data.csv
+!/data/sample/images/
+!/data/sample/images/*.png
+!/data/README.md
+
+# Model weights/checkpoints
+outputs/
+checkpoints/
+models/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Logs
+logs/
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,24 @@
+seed: 42
+
+data:
+  train_path: data/sample/sample_data.csv
+  image_root: .
+  text_column: text
+  image_column: image_path
+  label_column: aspect_labels
+  web_entity_column: web_entities
+  test_size: 0.2
+
+model:
+  text_encoder: roberta-base
+  image_encoder: resnet152
+  dropout: 0.2
+  hidden_size: 768
+  num_image_embeds: 1
+
+training:
+  batch_size: 4
+  epochs: 3
+  learning_rate: 0.00002
+  max_length: 256
+  output_dir: outputs

@@ -1,0 +1,6 @@
+id,domain,text,image_path,web_entities,aspect_labels,complaint_label
+sample_001,Transaction,Money was debited but the receiver did not get the UPI payment.,data/sample/images/sample_001.png,payment app|upi|bank transfer,net_banking_issue|provider_response,1
+sample_002,Credit Card,My refund has not been credited to the credit card even after repeated follow up.,data/sample/images/sample_002.png,credit card|refund|statement,net_banking_issue|provider_response,1
+sample_003,Customer Service,Customer support has not responded to my ticket for several days.,data/sample/images/sample_003.png,support|ticket|delay,provider_response,1
+sample_004,Financial Policies,The new policy update explains changes in digital payment limits.,data/sample/images/sample_004.png,policy|payment limits|news,financial_info|review,0
+sample_005,Loan,Please explain how to calculate my EMI and next payment date.,data/sample/images/sample_005.png,loan|emi|schedule,general_query,0
